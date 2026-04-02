@@ -49,12 +49,11 @@ export default function LoginPage() {
   return (
     <div className="stack-page">
       <section className="auth-shell">
-        <article className="auth-panel">
+        <article className="auth-panel auth-panel-center">
           <p className="eyebrow">Member access</p>
-          <h2>Log in to pick up your membership journey.</h2>
-          <p>
-            Subscribers land in their dashboard. Admins move straight into the control
-            workspace with draw and review tools.
+          <h2>Welcome back</h2>
+          <p className="subheading">
+            Sign in to continue to your membership dashboard and rewards workflow.
           </p>
 
           <form className="auth-form" onSubmit={handleSubmit}>
@@ -89,24 +88,10 @@ export default function LoginPage() {
             {status.error ? <p className="status-text status-text-error">{status.error}</p> : null}
           </form>
 
-          <p className="status-text">
-            Need an account? <Link to="/signup">Create one here.</Link>
-          </p>
+          <div className="auth-footer">
+            <p>Need an account? <Link to="/signup">Create one here.</Link></p>
+          </div>
         </article>
-
-        <aside className="auth-aside">
-          <div className="content-card content-card-accent">
-            <p className="eyebrow">What opens after login</p>
-            <h3>Your dashboard becomes the center of gravity.</h3>
-            <p>Subscription status, charity choice, scores, winnings, and draw visibility all live there.</p>
-          </div>
-          <div className="content-card">
-            <p className="eyebrow">Admin preview</p>
-            <h3>Dev admin credentials</h3>
-            <p><strong>admin@driveforgood.local</strong></p>
-            <p><strong>Admin123!</strong></p>
-          </div>
-        </aside>
       </section>
     </div>
   );
