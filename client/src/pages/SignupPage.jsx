@@ -79,12 +79,11 @@ export default function SignupPage() {
   return (
     <div className="stack-page">
       <section className="auth-shell">
-        <article className="auth-panel">
+        <article className="auth-panel auth-panel-center">
           <p className="eyebrow">New subscriber</p>
-          <h2>Create an account and step directly into the experience.</h2>
-          <p>
-            Once you join, the platform is ready for membership activation, score entry,
-            charity selection, and draw participation.
+          <h2>Create your account</h2>
+          <p className="subheading">
+            Join and start tracking scores, subscriptions, charity voting, and draw entries.
           </p>
 
           <form className="auth-form" onSubmit={handleSubmit}>
@@ -181,22 +180,10 @@ export default function SignupPage() {
             {status.error ? <p className="status-text status-text-error">{status.error}</p> : null}
           </form>
 
-          <p className="status-text">
-            Already registered? <Link to="/login">Log in here.</Link>
-          </p>
+          <div className="auth-footer">
+            <p>Already registered? <Link to="/login">Log in here.</Link></p>
+          </div>
         </article>
-
-        <aside className="auth-aside">
-          <div className="content-card content-card-accent">
-            <p className="eyebrow">After signup</p>
-            <h3>You are one step away from becoming draw-eligible.</h3>
-            <p>The product is already wired for demo membership now and live payment checkout later.</p>
-          </div>
-          <div className="content-card">
-            <p className="eyebrow">Included in the member flow</p>
-            <p>Subscription status, score tracking, charity preference, winnings visibility, and proof upload.</p>
-          </div>
-        </aside>
       </section>
     </div>
   );
