@@ -1,0 +1,609 @@
+{
+  "users": [
+    {
+      "id": "2cf2b3c2-f69c-4e88-96e9-4f72491d18b8",
+      "name": "Platform Admin",
+      "email": "admin@driveforgood.local",
+      "passwordHash": "$2b$10$NiJZeWR4gqJdE425phprWurl2lxhqwn5ZepZyh6pMHQL2CrU2Jcti",
+      "role": "admin",
+      "createdAt": "2026-04-01T13:38:16.628Z"
+    },
+    {
+      "id": "6b25e758-38b4-4484-bb1d-f0f7e77ff293",
+      "name": "Test User",
+      "email": "tester1775050866@example.com",
+      "passwordHash": "$2b$10$TBuRDTTZ8bpJspXSsXYjqeuzcyC.PcrrkD1voMWwkacNBX7f9IQTS",
+      "role": "subscriber",
+      "createdAt": "2026-04-01T13:41:06.410Z"
+    },
+    {
+      "id": "87970887-147d-4ec8-a439-a74a3ec79400",
+      "name": "Member Test",
+      "email": "member1775052117@example.com",
+      "passwordHash": "$2b$10$Bf.sdKDnvTwFfcs7rePmo.VVBaYXXzrGD8wVXWlAcIZprS7eC5O7W",
+      "role": "subscriber",
+      "createdAt": "2026-04-01T14:01:57.395Z"
+    },
+    {
+      "id": "abd87a9a-bb51-4aff-a4b0-a078c546eb9f",
+      "name": "Subscription User",
+      "email": "sub1775052244@example.com",
+      "passwordHash": "$2b$10$7GtX0ZhSZHrM4b5QLMZKYedy.GvQxzItifQtFYdka3E26c2vxqFv.",
+      "role": "subscriber",
+      "createdAt": "2026-04-01T14:04:04.350Z"
+    },
+    {
+      "id": "0181cacf-4f46-4b42-adca-b680abdf2c45",
+      "name": "Score User",
+      "email": "score1775054778@example.com",
+      "passwordHash": "$2b$10$k45ZNM.ArZzehV75yz6wxOSE.P1hX.E03lYki40LDl4FyTEbiHvNm",
+      "role": "subscriber",
+      "createdAt": "2026-04-01T14:46:18.829Z"
+    },
+    {
+      "id": "459745ce-582f-4c3c-b0f7-4950e2759cb0",
+      "name": "Draw User",
+      "email": "draw1775055230@example.com",
+      "passwordHash": "$2b$10$Yk1hEW3Tb8/iP/T44Jllyew.5fLcanjmkjQvGdlO9c0cZV7UfHoh2",
+      "role": "subscriber",
+      "createdAt": "2026-04-01T14:53:50.488Z"
+    },
+    {
+      "id": "72d48e39-4cbf-4f6b-9d2d-33159ab9b58d",
+      "name": "Proof User",
+      "email": "proof1775055535@example.com",
+      "passwordHash": "$2b$10$Yk12hAN8OW6mqbTTBseE3e/uEoRv5ChPsKGuK3Wo7IXUZk.8KgBJu",
+      "role": "subscriber",
+      "createdAt": "2026-04-01T14:58:55.992Z"
+    },
+    {
+      "id": "0aeada67-1af1-46ba-9126-54f3167fc29e",
+      "name": "Sahil",
+      "email": "sahilvijaysingh15@gmail.com",
+      "passwordHash": "$2b$10$hqtXXCazBFgZ407wzum6HeGvQNZx5lP0YgJ7VrK8zasnvsLrrEh7G",
+      "role": "subscriber",
+      "createdAt": "2026-04-01T17:05:04.073Z"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "af2d1ca8-7edb-4824-a79b-f9599ce65d1a",
+      "userId": "2cf2b3c2-f69c-4e88-96e9-4f72491d18b8",
+      "planId": null,
+      "status": "inactive",
+      "renewalDate": null,
+      "startedAt": null,
+      "canceledAt": null
+    },
+    {
+      "id": "a726a45e-cfbc-476a-927e-728f9076f95b",
+      "userId": "6b25e758-38b4-4484-bb1d-f0f7e77ff293",
+      "planId": null,
+      "status": "inactive",
+      "renewalDate": null,
+      "startedAt": null,
+      "canceledAt": null
+    },
+    {
+      "id": "1affd42f-b992-4c0e-babc-5b9549d8a6bf",
+      "userId": "87970887-147d-4ec8-a439-a74a3ec79400",
+      "planId": null,
+      "status": "inactive",
+      "renewalDate": null,
+      "startedAt": null,
+      "canceledAt": null
+    },
+    {
+      "id": "a1cf04b1-0d43-4f4b-9fa9-b2d8d5a2c8ef",
+      "userId": "abd87a9a-bb51-4aff-a4b0-a078c546eb9f",
+      "planId": "yearly",
+      "status": "cancelled",
+      "renewalDate": null,
+      "startedAt": "2026-04-01T14:04:04.385Z",
+      "canceledAt": "2026-04-01T14:04:04.466Z"
+    },
+    {
+      "id": "d174c748-2c6c-44bc-aad0-b1cdf5f2d20b",
+      "userId": "0181cacf-4f46-4b42-adca-b680abdf2c45",
+      "planId": "monthly",
+      "status": "active",
+      "renewalDate": "2026-05-01T14:46:18.884Z",
+      "startedAt": "2026-04-01T14:46:18.884Z",
+      "canceledAt": null
+    },
+    {
+      "id": "29642aab-6fcd-4f7f-8335-a4bb198bd268",
+      "userId": "459745ce-582f-4c3c-b0f7-4950e2759cb0",
+      "planId": "monthly",
+      "status": "active",
+      "renewalDate": "2026-05-01T14:53:50.519Z",
+      "startedAt": "2026-04-01T14:53:50.519Z",
+      "canceledAt": null
+    },
+    {
+      "id": "a4e9ece2-a2ca-4f9a-8cc9-b230b9b12144",
+      "userId": "72d48e39-4cbf-4f6b-9d2d-33159ab9b58d",
+      "planId": "monthly",
+      "status": "active",
+      "renewalDate": "2026-05-01T14:58:56.023Z",
+      "startedAt": "2026-04-01T14:58:56.023Z",
+      "canceledAt": null
+    },
+    {
+      "id": "298e6c8b-6fb0-4bac-b007-c7969e3544f4",
+      "userId": "0aeada67-1af1-46ba-9126-54f3167fc29e",
+      "planId": "yearly",
+      "status": "active",
+      "renewalDate": "2027-04-01T17:12:39.774Z",
+      "startedAt": "2026-04-01T17:12:39.774Z",
+      "canceledAt": null
+    }
+  ],
+  "charitySelections": [
+    {
+      "id": "bf16d4b1-23b8-46c3-8b6a-b15bbf4f4335",
+      "userId": "2cf2b3c2-f69c-4e88-96e9-4f72491d18b8",
+      "charityId": "first-tee-futures",
+      "contributionPercentage": 10,
+      "updatedAt": "2026-04-01T13:44:12.369Z"
+    },
+    {
+      "id": "b9354c75-8b89-490b-932b-94a1cf970d5b",
+      "userId": "6b25e758-38b4-4484-bb1d-f0f7e77ff293",
+      "charityId": "first-tee-futures",
+      "contributionPercentage": 10,
+      "updatedAt": "2026-04-01T13:44:12.370Z"
+    },
+    {
+      "id": "43e64dcf-8669-4230-bcc6-38c3cf805f44",
+      "userId": "87970887-147d-4ec8-a439-a74a3ec79400",
+      "charityId": "fairway-relief-fund",
+      "contributionPercentage": 10,
+      "updatedAt": "2026-04-01T14:01:57.455Z"
+    },
+    {
+      "id": "05829c4b-2f8e-4ca1-b588-c5ef41fcdb72",
+      "userId": "abd87a9a-bb51-4aff-a4b0-a078c546eb9f",
+      "charityId": "first-tee-futures",
+      "contributionPercentage": 10,
+      "updatedAt": "2026-04-01T14:04:04.353Z"
+    },
+    {
+      "id": "1154a383-5408-404c-9479-135b34bed8c7",
+      "userId": "0181cacf-4f46-4b42-adca-b680abdf2c45",
+      "charityId": "first-tee-futures",
+      "contributionPercentage": 10,
+      "updatedAt": "2026-04-01T14:46:18.833Z"
+    },
+    {
+      "id": "aaecc411-87e5-40d7-9b81-b5a8059c4040",
+      "userId": "459745ce-582f-4c3c-b0f7-4950e2759cb0",
+      "charityId": "first-tee-futures",
+      "contributionPercentage": 10,
+      "updatedAt": "2026-04-01T14:53:50.490Z"
+    },
+    {
+      "id": "3de14b27-2d19-473b-baef-a8d41dd37aa8",
+      "userId": "72d48e39-4cbf-4f6b-9d2d-33159ab9b58d",
+      "charityId": "first-tee-futures",
+      "contributionPercentage": 10,
+      "updatedAt": "2026-04-01T14:58:55.994Z"
+    },
+    {
+      "id": "e26ae2f3-f1ad-445d-94de-4a1b5fa8c3b2",
+      "userId": "0aeada67-1af1-46ba-9126-54f3167fc29e",
+      "charityId": "first-tee-futures",
+      "contributionPercentage": 10,
+      "updatedAt": "2026-04-01T17:05:04.076Z"
+    }
+  ],
+  "winnings": [
+    {
+      "id": "248ad563-8ac4-416b-9aea-831027843fa6",
+      "userId": "2cf2b3c2-f69c-4e88-96e9-4f72491d18b8",
+      "totalWon": 0,
+      "paymentStatus": "No winnings yet",
+      "lastUpdatedAt": "2026-04-01T13:44:12.370Z"
+    },
+    {
+      "id": "416d55eb-c0c4-4f04-b3fa-a6121b10edb4",
+      "userId": "6b25e758-38b4-4484-bb1d-f0f7e77ff293",
+      "totalWon": 0,
+      "paymentStatus": "No winnings yet",
+      "lastUpdatedAt": "2026-04-01T13:44:12.370Z"
+    },
+    {
+      "id": "d14cfcd4-f782-4bac-af7f-30121084cfcd",
+      "userId": "87970887-147d-4ec8-a439-a74a3ec79400",
+      "totalWon": 0,
+      "paymentStatus": "No winnings yet",
+      "lastUpdatedAt": "2026-04-01T14:01:57.398Z"
+    },
+    {
+      "id": "ca9914fe-004c-489f-8c0a-19ef300afe81",
+      "userId": "abd87a9a-bb51-4aff-a4b0-a078c546eb9f",
+      "totalWon": 0,
+      "paymentStatus": "No winnings yet",
+      "lastUpdatedAt": "2026-04-01T14:04:04.353Z"
+    },
+    {
+      "id": "804d1fe5-96c9-483c-919e-af6a559b8461",
+      "userId": "0181cacf-4f46-4b42-adca-b680abdf2c45",
+      "totalWon": 0,
+      "paymentStatus": "No winnings yet",
+      "lastUpdatedAt": "2026-04-01T14:46:18.833Z"
+    },
+    {
+      "id": "3dc3c802-a2eb-4680-a2f5-50920ff11557",
+      "userId": "459745ce-582f-4c3c-b0f7-4950e2759cb0",
+      "totalWon": 16.47,
+      "paymentStatus": "Pending review",
+      "lastUpdatedAt": "2026-04-01T17:09:22.407Z"
+    },
+    {
+      "id": "42c2ecf9-c373-4cd2-bdf0-640087c5dcb7",
+      "userId": "72d48e39-4cbf-4f6b-9d2d-33159ab9b58d",
+      "totalWon": 8.87,
+      "paymentStatus": "Pending review",
+      "lastUpdatedAt": "2026-04-01T17:09:22.407Z"
+    },
+    {
+      "id": "6e7215bb-bbe1-49fe-bd28-7712b7d376b9",
+      "userId": "0aeada67-1af1-46ba-9126-54f3167fc29e",
+      "totalWon": 3.17,
+      "paymentStatus": "Paid",
+      "lastUpdatedAt": "2026-04-01T17:11:43.510Z"
+    }
+  ],
+  "scores": [
+    {
+      "id": "5a2affd0-9ed9-4fe8-81af-1321972f7368",
+      "userId": "0181cacf-4f46-4b42-adca-b680abdf2c45",
+      "courseName": "Course 1",
+      "grossScore": 80,
+      "playedAt": "2026-03-01",
+      "createdAt": "2026-04-01T14:46:18.900Z"
+    },
+    {
+      "id": "527ea9bf-8ab0-4e6f-967c-8dc0f4d31349",
+      "userId": "0181cacf-4f46-4b42-adca-b680abdf2c45",
+      "courseName": "Course 2",
+      "grossScore": 82,
+      "playedAt": "2026-03-02",
+      "createdAt": "2026-04-01T14:46:18.907Z"
+    },
+    {
+      "id": "3c2cbb73-49ae-48b0-bae8-06885fb1d7f6",
+      "userId": "0181cacf-4f46-4b42-adca-b680abdf2c45",
+      "courseName": "Course 3",
+      "grossScore": 84,
+      "playedAt": "2026-03-03",
+      "createdAt": "2026-04-01T14:46:18.912Z"
+    },
+    {
+      "id": "3ce64b09-fb80-40c4-b5bc-b5b36ce1aded",
+      "userId": "0181cacf-4f46-4b42-adca-b680abdf2c45",
+      "courseName": "Course 4",
+      "grossScore": 86,
+      "playedAt": "2026-03-04",
+      "createdAt": "2026-04-01T14:46:18.917Z"
+    },
+    {
+      "id": "34d95603-8475-4c3a-9924-4efb30425933",
+      "userId": "0181cacf-4f46-4b42-adca-b680abdf2c45",
+      "courseName": "Course 5",
+      "grossScore": 88,
+      "playedAt": "2026-03-05",
+      "createdAt": "2026-04-01T14:46:18.922Z"
+    },
+    {
+      "id": "33d9647f-f906-457c-98a5-9e65da3b7014",
+      "userId": "0181cacf-4f46-4b42-adca-b680abdf2c45",
+      "courseName": "Course 6",
+      "grossScore": 100,
+      "playedAt": "2026-03-06",
+      "createdAt": "2026-04-01T14:46:18.927Z"
+    },
+    {
+      "id": "36e48060-d517-41f5-aaf8-feb26a1b5aca",
+      "userId": "459745ce-582f-4c3c-b0f7-4950e2759cb0",
+      "courseName": "Draw Course 1",
+      "grossScore": 81,
+      "playedAt": "2026-03-01",
+      "createdAt": "2026-04-01T14:53:50.534Z"
+    },
+    {
+      "id": "e4f2020d-7338-4265-8cd8-d31f52f88ac2",
+      "userId": "459745ce-582f-4c3c-b0f7-4950e2759cb0",
+      "courseName": "Draw Course 2",
+      "grossScore": 82,
+      "playedAt": "2026-03-02",
+      "createdAt": "2026-04-01T14:53:50.539Z"
+    },
+    {
+      "id": "1d008aa5-4b5f-45a3-a710-1570d64c2789",
+      "userId": "459745ce-582f-4c3c-b0f7-4950e2759cb0",
+      "courseName": "Draw Course 3",
+      "grossScore": 83,
+      "playedAt": "2026-03-03",
+      "createdAt": "2026-04-01T14:53:50.545Z"
+    },
+    {
+      "id": "b6bfbd0b-6f42-413e-a2df-570f0d1ebfbe",
+      "userId": "459745ce-582f-4c3c-b0f7-4950e2759cb0",
+      "courseName": "Draw Course 4",
+      "grossScore": 84,
+      "playedAt": "2026-03-04",
+      "createdAt": "2026-04-01T14:53:50.551Z"
+    },
+    {
+      "id": "c5b67e15-02c0-40f3-8940-06ff7806430c",
+      "userId": "459745ce-582f-4c3c-b0f7-4950e2759cb0",
+      "courseName": "Draw Course 5",
+      "grossScore": 85,
+      "playedAt": "2026-03-05",
+      "createdAt": "2026-04-01T14:53:50.556Z"
+    },
+    {
+      "id": "9e28e6ad-10db-4f8b-a3e9-93a45e9d59e4",
+      "userId": "72d48e39-4cbf-4f6b-9d2d-33159ab9b58d",
+      "courseName": "Proof Course 1",
+      "grossScore": 81,
+      "playedAt": "2026-03-01",
+      "createdAt": "2026-04-01T14:58:56.038Z"
+    },
+    {
+      "id": "316e52e3-10eb-4928-b65a-9dbd2ca687f9",
+      "userId": "72d48e39-4cbf-4f6b-9d2d-33159ab9b58d",
+      "courseName": "Proof Course 2",
+      "grossScore": 82,
+      "playedAt": "2026-03-02",
+      "createdAt": "2026-04-01T14:58:56.043Z"
+    },
+    {
+      "id": "76822b55-cca5-487c-85bc-ae8481a0a065",
+      "userId": "72d48e39-4cbf-4f6b-9d2d-33159ab9b58d",
+      "courseName": "Proof Course 3",
+      "grossScore": 83,
+      "playedAt": "2026-03-03",
+      "createdAt": "2026-04-01T14:58:56.049Z"
+    },
+    {
+      "id": "ef0da9f5-07eb-4f31-b932-ce0078d848f5",
+      "userId": "72d48e39-4cbf-4f6b-9d2d-33159ab9b58d",
+      "courseName": "Proof Course 4",
+      "grossScore": 84,
+      "playedAt": "2026-03-04",
+      "createdAt": "2026-04-01T14:58:56.054Z"
+    },
+    {
+      "id": "48a30897-9329-480b-97ee-14fb8aa5cbaf",
+      "userId": "72d48e39-4cbf-4f6b-9d2d-33159ab9b58d",
+      "courseName": "Proof Course 5",
+      "grossScore": 85,
+      "playedAt": "2026-03-05",
+      "createdAt": "2026-04-01T14:58:56.059Z"
+    },
+    {
+      "id": "c4bfc165-1279-43bb-a6e1-064c7445743b",
+      "userId": "0aeada67-1af1-46ba-9126-54f3167fc29e",
+      "courseName": "sahh",
+      "grossScore": 80,
+      "playedAt": "2026-04-01",
+      "createdAt": "2026-04-01T17:06:48.758Z"
+    },
+    {
+      "id": "f6f03083-a45f-4745-9ad0-ca64afd780fe",
+      "userId": "0aeada67-1af1-46ba-9126-54f3167fc29e",
+      "courseName": "sahh",
+      "grossScore": 81,
+      "playedAt": "2026-04-01",
+      "createdAt": "2026-04-01T17:07:03.970Z"
+    },
+    {
+      "id": "a5224ffc-7055-4d39-b049-b15a68828083",
+      "userId": "0aeada67-1af1-46ba-9126-54f3167fc29e",
+      "courseName": "sahh",
+      "grossScore": 82,
+      "playedAt": "2026-04-01",
+      "createdAt": "2026-04-01T17:07:16.036Z"
+    },
+    {
+      "id": "465225a3-741f-4769-8eff-53dad0c20009",
+      "userId": "0aeada67-1af1-46ba-9126-54f3167fc29e",
+      "courseName": "sahh",
+      "grossScore": 83,
+      "playedAt": "2026-04-01",
+      "createdAt": "2026-04-01T17:07:30.316Z"
+    },
+    {
+      "id": "18725459-8bae-4c4b-a6ac-6c6e2a4c1f28",
+      "userId": "0aeada67-1af1-46ba-9126-54f3167fc29e",
+      "courseName": "sahh",
+      "grossScore": 84,
+      "playedAt": "2026-04-01",
+      "createdAt": "2026-04-01T17:07:46.458Z"
+    }
+  ],
+  "draws": [
+    {
+      "id": "4b62d5be-2601-4873-9aec-c33ea4ed2006",
+      "periodKey": "2026-04-1775055230",
+      "winningNumbers": [
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "basePrizePool": 19,
+      "jackpotCarryoverIn": 0,
+      "jackpotCarryoverOut": 0,
+      "results": [
+        {
+          "userId": "0181cacf-4f46-4b42-adca-b680abdf2c45",
+          "ticketNumbers": [
+            0,
+            8,
+            6,
+            4,
+            2
+          ],
+          "matchCount": 2,
+          "amountWon": 0
+        },
+        {
+          "userId": "459745ce-582f-4c3c-b0f7-4950e2759cb0",
+          "ticketNumbers": [
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "matchCount": 5,
+          "amountWon": 7.6
+        }
+      ],
+      "createdAt": "2026-04-01T14:53:50.623Z"
+    },
+    {
+      "id": "12cc1b77-72e3-4a50-8b2d-92be1ac60153",
+      "periodKey": "2026-05-1775055536",
+      "winningNumbers": [
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "basePrizePool": 28.5,
+      "jackpotCarryoverIn": 0,
+      "jackpotCarryoverOut": 0,
+      "results": [
+        {
+          "userId": "0181cacf-4f46-4b42-adca-b680abdf2c45",
+          "ticketNumbers": [
+            0,
+            8,
+            6,
+            4,
+            2
+          ],
+          "matchCount": 2,
+          "amountWon": 0
+        },
+        {
+          "userId": "459745ce-582f-4c3c-b0f7-4950e2759cb0",
+          "ticketNumbers": [
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "matchCount": 5,
+          "amountWon": 5.7
+        },
+        {
+          "userId": "72d48e39-4cbf-4f6b-9d2d-33159ab9b58d",
+          "ticketNumbers": [
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "matchCount": 5,
+          "amountWon": 5.7
+        }
+      ],
+      "createdAt": "2026-04-01T14:58:56.126Z"
+    },
+    {
+      "id": "8d32f07c-e795-4437-9e95-aeb6dd89bf5e",
+      "periodKey": "2026-04",
+      "winningNumbers": [
+        7,
+        2,
+        4,
+        7,
+        3
+      ],
+      "basePrizePool": 38,
+      "jackpotCarryoverIn": 0,
+      "jackpotCarryoverOut": 15.2,
+      "results": [
+        {
+          "userId": "0181cacf-4f46-4b42-adca-b680abdf2c45",
+          "ticketNumbers": [
+            0,
+            8,
+            6,
+            4,
+            2
+          ],
+          "matchCount": 2,
+          "amountWon": 0
+        },
+        {
+          "userId": "459745ce-582f-4c3c-b0f7-4950e2759cb0",
+          "ticketNumbers": [
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "matchCount": 3,
+          "amountWon": 3.17
+        },
+        {
+          "userId": "72d48e39-4cbf-4f6b-9d2d-33159ab9b58d",
+          "ticketNumbers": [
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "matchCount": 3,
+          "amountWon": 3.17
+        },
+        {
+          "userId": "0aeada67-1af1-46ba-9126-54f3167fc29e",
+          "ticketNumbers": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "matchCount": 3,
+          "amountWon": 3.17
+        }
+      ],
+      "createdAt": "2026-04-01T17:09:22.408Z"
+    }
+  ],
+  "proofSubmissions": [
+    {
+      "id": "9b107c76-a300-46b5-bc80-78c7bd4d0466",
+      "userId": "72d48e39-4cbf-4f6b-9d2d-33159ab9b58d",
+      "originalFileName": "proof.png",
+      "publicUrl": "/uploads/proofs/5994f479-383b-4ba3-8082-dbe8cbb46907.png",
+      "status": "Approved",
+      "createdAt": "2026-04-01T14:58:56.135Z",
+      "reviewedAt": "2026-04-01T14:58:56.701Z"
+    },
+    {
+      "id": "7b8cb16b-2025-4640-b5a9-516d73b904e0",
+      "userId": "0aeada67-1af1-46ba-9126-54f3167fc29e",
+      "originalFileName": "_- visual selection (22).png",
+      "publicUrl": "/uploads/proofs/eb79ce7f-10f0-43dd-8110-6405ac33673b.png",
+      "status": "Approved",
+      "createdAt": "2026-04-01T17:11:07.395Z",
+      "reviewedAt": "2026-04-01T17:11:43.510Z"
+    }
+  ]
+}
